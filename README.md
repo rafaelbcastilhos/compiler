@@ -1,6 +1,6 @@
 # compiler
 
-## Yet Another Compiler
+## Yet Another Compiler, usando a biblioteca PLY para realizar o parser LALR(1), baseado em Lex/Yacc e geração de código intermediário.
 
 ### Requerimentos de uso:
 

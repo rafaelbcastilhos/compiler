@@ -2,14 +2,14 @@
 
 ## Yet Another Compiler
 
-### Usage requirements
+### Requerimentos de uso:
 
-You need to have `pip3` installed, compatible with `python=^3.6.9`.
+É necessário haver o `pip3` instalado, compatível com `python=^3.6.9`.
 
 ### Setup
 
-Run `make setup` to createthe environment. A virtual environment will be created using `virtualenv` in `./venv` folder. To activate it manually, you can run `source venv/bin/activate`, but using the `make run` command, it is used by default.
+Execute `make setup` para criar o ambiente. O ambiente virtual pode ser criado usando o `virtualenv` na pasta `./venv`. Para ativar manualmente, pode ser executado `source venv/bin/activate`, mas, usando o comando `make run` é usado como padrão.
 
-### Executing
+### Executando:
 
-Run `make run filepath=<source/code/file/path>`. If you run `make run` without setting up a `filepath`, the `examples/math.lcc` will be used.
+Execute `make run filepath=<source/code/file/path>`. Se você executar `make run` sem definir um `filepath`, o arquivo `examples/math.lcc` será usado, na qual contêm um programa fonte baseado em expressões e funções matemáticas.
